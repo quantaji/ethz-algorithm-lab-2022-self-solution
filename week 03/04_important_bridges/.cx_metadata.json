@@ -1,0 +1,13 @@
+{
+  "src": "r",
+  "src/main.cpp": "d",
+  "public": "r",
+  "public/user_test.in": "e",
+  "public/user_test.out": "e",
+  "public/sample.in": "r",
+  "public/sample.out": "r",
+  "public/test1.out": "r",
+  "public/test1.in": "r",
+  "public/test2.out": "r",
+  "public/test2.in": "r"
+}
