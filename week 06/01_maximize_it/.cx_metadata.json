@@ -1,0 +1,11 @@
+{
+  "public": "r",
+  "public/sample.in": "r",
+  "public/sample.out": "r",
+  "public/test.in": "r",
+  "public/test.out": "r",
+  "public/user_test.in": "e",
+  "public/user_test.out": "e",
+  "src": "r",
+  "src/main.cpp": "e"
+}
