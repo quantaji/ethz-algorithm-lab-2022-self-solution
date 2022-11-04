@@ -1,0 +1,14 @@
+{
+  "src": "r",
+  "src/main.cpp": "d",
+  "public": "r",
+  "public/user_test.in": "e",
+  "public/user_test.out": "e",
+  "public/test3.in": "r",
+  "public/test1.out": "r",
+  "public/test2.out": "r",
+  "public/test3.out": "r",
+  "public/sample.out": "r",
+  "public/sample.in": "r",
+  "this.pdf": "r"
+}
