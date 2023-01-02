@@ -1,0 +1,14 @@
+{
+  "cx_description": "e",
+  "cx_description/conf.yml": "r",
+  "cx_description/english.md": "r",
+  "public": "r",
+  "public/test1.in": "r",
+  "public/test2.out": "r",
+  "public/test2.in": "r",
+  "public/sample.out": "r",
+  "public/test1.out": "r",
+  "public/sample.in": "r",
+  "src": "r",
+  "this.pdf": "r"
+}
