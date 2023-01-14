@@ -1,47 +1,56 @@
-///4
+///2
 #include <iostream>
 #include <vector>
 #include <limits>
 #include <queue>
 #include <algorithm>
-typedef std::pair<int, int> Pair;
-typedef std::pair<Pair, int> PC; // state pair and its cost
+typedef std::vector<int> IV;
 
 // i still need some tricks to to pruning for test 4.
 
 void solve(){
   int n; std::cin >> n;
-  std::vector<int> Sa, Sb;
-  int sum_a = 0, sum_b = 0;
+  std::vector<int> A, B;
   
   for (int i=0; i<n; ++i){
     int a; std::cin >> a;
-    sum_a += a-1;
-    Sa.push_back(sum_a);
+    A.push_back(a-1);
   }
   for (int i=0; i<n; ++i){
     int b; std::cin >> b;
-    sum_b += b-1;
-    Sb.push_back(sum_b);
+    B.push_back(b-1);
   }
   
-  std::vector<std::vector<int>> min_c (n, std::vector<int> (n, std::numeric_limits<int>::max()));
+  // int inf=std::numeric_limits<int>::max();
+  int inf=100*100*1000*2;
   
-  for (int i=0; i<n; ++i) for (int j=0; j<n; ++j){
-    // case 1: i or j is zero, then no need to calculate the previous sum
-    if (i==0 || j==0){
-      min_c[i][j] = Sa[i]*Sb[j];
-    } else {
-      for (int ip=0; ip<i; ++ip){
-        min_c[i][j] = std::min( min_c[i][j], min_c[ip][j-1] + (Sa[i]-Sa[ip])*(Sb[j]-Sb[j-1]) );
+  std::vector<IV> d1(n, IV (n, inf)), d2(n, IV (n, inf)), d3(n, IV (n, inf));
+  d1[0][0]=A[0]*B[0];
+  
+  for (int ipj=1; ipj<2*n-1; ++ipj){ //ipj means i+j, ranges from 1 to 2n-2
+    for (int i=std::max(0, ipj-(n-1)); i<=std::min(n-1, ipj); ++i){
+      int j=ipj-i;
+      int block=A[i]*B[j];
+      if (i-1>=0 && j-1>=0) {
+        d1[i][j]=std::min(d1[i][j], block+d1[i-1][j-1]);
+        d1[i][j]=std::min(d1[i][j], block+d2[i-1][j-1]);
+        d1[i][j]=std::min(d1[i][j], block+d3[i-1][j-1]);
       }
-      for (int jp=0; jp<j; ++jp){
-        min_c[i][j] = std::min( min_c[i][j], min_c[i-1][jp] + (Sa[i]-Sa[i-1])*(Sb[j]-Sb[jp]) );
+      if (i-1>=0){
+        d2[i][j]=std::min(d2[i][j], block+d1[i-1][j]);
+        d2[i][j]=std::min(d2[i][j], block+d2[i-1][j]);
+      }
+      if (j-1>=0){
+        d3[i][j]=std::min(d3[i][j], block+d1[i][j-1]);
+        d3[i][j]=std::min(d3[i][j], block+d3[i][j-1]);
       }
     }
   }
-  
-  std::cout << min_c[n-1][n-1] << std::endl;
+  int result=inf;
+  result=std::min(result, d1[n-1][n-1]);
+  result=std::min(result, d2[n-1][n-1]);
+  result=std::min(result, d3[n-1][n-1]);
+  std::cout << result << std::endl;
 }
 
 int main(){
