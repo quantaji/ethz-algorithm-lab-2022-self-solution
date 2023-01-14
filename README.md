@@ -5,4 +5,5 @@ Each problem folder contains my solution, the problem PDF and the public test da
 ## Week 14
 | Problem | Topic (First Small Hint) |
 | --- | --- |
-| [PoW14: Ludo Bagman](week%2014/00_ludo_bagman/) | <span style="color:black;background:black">Special design of tree.</span>|
+| [PoW14: Ludo Bagman](week%2014/00_ludo_bagman/) |$$\color{black} \fcolorbox{red}{black} {Special design of tree.}$$|
+
