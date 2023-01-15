@@ -28,49 +28,49 @@ Each problem folder contains my solution, the problem PDF and the public test da
 | [Even Matrices](week01/03_even_matrices/) |
 
 ## Week 2
-| Problem                                        |
-| ---------------------------------------------- |
-| PoW: [Deck of Cards](week02/00_deck_of_cards/) |
-| [Beach Bars](week02/01_beach_bars/)            |
-| [Burning Coins](week02/02_burning_coins/)      |
-| [Search Snippets](week02/03_search_snippets/)  |
-| [The Great Game](week02/04_the_great_game/)    |
+| Problem                                                                  |
+| ------------------------------------------------------------------------ |
+| PoW2: [Deck of Cards](week02/00_deck_of_cards/)                          |
+| [Beach Bars](week02/01_beach_bars/)                                      |
+| [Burning Coins from Two Sides (Burning Coins)](week02/02_burning_coins/) |
+| [Search Snippets](week02/03_search_snippets/)                            |
+| [The Great Game](week02/04_the_great_game/)                              |
 
 ## Week 3
-| Problem       |
-| ------------- |
-| PoW: [](week) |
-| [](week)      |
-| [](week)      |
-| [](week)      |
-| [](week)      |
+| Problem                                                |
+| ------------------------------------------------------ |
+| PoW3: [San Francisco](week03/00_san_francisco/)        |
+| [First steps with BGL](week03/01_first_step_with_bgl/) |
+| [Ant Challenge](week03/02_ant_challenge/)              |
+| [Buddy Selection](week03/03_buddy_selection/)          |
+| [Important Bridges](week03/04_important_bridges/)      |
 
 ## Week 4
-| Problem       |
-| ------------- |
-| PoW: [](week) |
-| [](week)      |
-| [](week)      |
-| [](week)      |
-| [](week)      |
+| Problem                                      |
+| -------------------------------------------- |
+| PoW4: [The Iron Islands](week04/00_greyjoy/) |
+| [Antenna](week04/01_antenna/)                |
+| [Hit?](week04/02_hit/)                       |
+| [Hiking Maps](week04/03_hiking-maps/)        |
+| [First hit](week04/04_firsthit/)             |
 
 ## Week 5
-| Problem       |
-| ------------- |
-| PoW: [](week) |
-| [](week)      |
-| [](week)      |
-| [](week)      |
-| [](week)      |
+| Problem                                         |
+| ----------------------------------------------- |
+| PoW5: [Tracking](week05/00_tracking/)           |
+| [Boats](week05/01_boats/)                       |
+| [Moving books](week05/02_moving_books/)         |
+| [Severus Snape](week05/03_severus_snape/)       |
+| [Astérix the Gaul](week05/04_asterix_the_gaul/) |
 
 ## Week 6
-| Problem       |
-| ------------- |
-| PoW: [](week) |
-| [](week)      |
-| [](week)      |
-| [](week)      |
-| [](week)      |
+| Problem                                     |
+| ------------------------------------------- |
+| PoW6: [Motorcycles](week06/00_motorcycles/) |
+| [Maximize it!](week06/01_maximize_it/)      |
+| [Diet](week06/02_diet/)                     |
+| [Inball](week06/03_inball/)                 |
+| [Suez](week06/04_suez/)                     |
 
 ## Week 7
 | Problem       |
