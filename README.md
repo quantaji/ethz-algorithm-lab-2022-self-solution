@@ -4,7 +4,7 @@ Each problem folder contains my solution, the problem PDF and the public test da
 
 **!!! IMPORTANT !!!**: Think twice before you browse to certain pages. There is a `README.md` in every problem folder that contains hints.
 
-I am not familiar with C++. My codes go in the most naive way. You can try to accelerate then with some super cool C++ features, or some built-in functions that I don't know.
+I am not familiar with C++. My codes go in the most naive way. You can try to accelerate them with some super cool C++ features, or some built-in functions that I don't know.
 
 ## Week 1
 | Problem                                   |
