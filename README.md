@@ -4,20 +4,7 @@ Each problem folder contains my solution, the problem PDF and the public test da
 
 **!!! IMPORTANT !!!**: Think twice before you browse to certain pages. There is a `README.md` in every problem folder that contains hints.
 
-## C++ Introduction
 
-| Problem                                                 |
-| ------------------------------------------------------- |
-| [Hello World](intro_exercise/01_hellow_world/)          |
-| [Sum it!](intro_exercise/02_sum_it/)                    |
-| [Basic Data Types](intro_exercise/03_basic_data_types/) |
-| [Strings](intro_exercise/04_strings/)                   |
-| [Vectors](intro_exercise/05_vectors/)                   |
-| [Sets](intro_exercise/06_sets/)                         |
-| [Maps](intro_exercise/07_maps/)                         |
-| [DFS](intro_exercise/08_dfs/)                           |
-| [BFS](intro_exercise/09_bfs/)                           |
-| [Sort](intro_exercise/10_sort/)                         |
 
 ## Week 1
 | Problem                                   |
@@ -46,76 +33,77 @@ Each problem folder contains my solution, the problem PDF and the public test da
 | [Important Bridges](week03/04_important_bridges/)      |
 
 ## Week 4
-| Problem                                      |
-| -------------------------------------------- |
-| PoW4: [The Iron Islands](week04/00_greyjoy/) |
-| [Antenna](week04/01_antenna/)                |
-| [Hit?](week04/02_hit/)                       |
-| [Hiking Maps](week04/03_hiking-maps/)        |
-| [First hit](week04/04_firsthit/)             |
+| Problem                                                |
+| ------------------------------------------------------ |
+| PoW4: [The Iron Islands (Greyjoy)](week04/00_greyjoy/) |
+| [Antenna](week04/01_antenna/)                          |
+| [Hit?](week04/02_hit/)                                 |
+| [Hiking Maps](week04/03_hiking-maps/)                  |
+| [First hit](week04/04_firsthit/)                       |
 
 ## Week 5
-| Problem                                         |
-| ----------------------------------------------- |
-| PoW5: [Tracking](week05/00_tracking/)           |
-| [Boats](week05/01_boats/)                       |
-| [Moving books](week05/02_moving_books/)         |
-| [Severus Snape](week05/03_severus_snape/)       |
-| [Astérix the Gaul](week05/04_asterix_the_gaul/) |
+| Problem                                                            |
+| ------------------------------------------------------------------ |
+| PoW5: [Tracking](week05/00_tracking/)                              |
+| [Boats](week05/01_boats/)                                          |
+| [Moving books](week05/02_moving_books/)                            |
+| [Severus Snape](week05/03_severus_snape/)                          |
+| [Astérix the Gaul (Asterix the Gaul)](week05/04_asterix_the_gaul/) |
 
 ## Week 6
-| Problem                                     |
-| ------------------------------------------- |
-| PoW6: [Motorcycles](week06/00_motorcycles/) |
-| [Maximize it!](week06/01_maximize_it/)      |
-| [Diet](week06/02_diet/)                     |
-| [Inball](week06/03_inball/)                 |
-| [Suez](week06/04_suez/)                     |
+| Problem                                                       |
+| ------------------------------------------------------------- |
+| PoW6: [Motorcycles](week06/00_motorcycles/)                   |
+| [Maximize it! (What is the Maximum?)](week06/01_maximize_it/) |
+| [Diet](week06/02_diet/)                                       |
+| [Inball](week06/03_inball/)                                   |
+| [Suez](week06/04_suez/)                                       |
 
 ## Week 7
-| Problem       |
-| ------------- |
-| PoW: [](week) |
-| [](week)      |
-| [](week)      |
-| [](week)      |
-| [](week)      |
+| Problem                                                       |
+| ------------------------------------------------------------- |
+| PoW7: [Octopussy](week07/00_octopussy/)                       |
+| [Coin Tossing Tournament](week07/01_coin_tossing_tournament/) |
+| [Shopping Trip](week07/02_shopping_trip/)                     |
+| [London](week07/03_london/)                                   |
+| [Tiles](week07/04_tiles/)                                     |
 
 ## Week 8
-| Problem       |
-| ------------- |
-| PoW: [](week) |
-| [](week)      |
-| [](week)      |
-| [](week)      |
-| [](week)      |
+| Problem                                               |
+| ----------------------------------------------------- |
+| PoW8: [The Augean Stables](week08/00_augean_stables/) |
+| [Bistro](week08/01_bistro/)                           |
+| [Light the Stage](week08/02_light_the_stage/)         |
+| [H1N1](week08/03_h1n1/)                               |
+| [Germs](week08/04_germs/)                             |
 
 ## Week 9
-| Problem       |
-| ------------- |
-| PoW: [](week) |
-| [](week)      |
-| [](week)      |
-| [](week)      |
-| [](week)      |
+| Problem                                                |
+| ------------------------------------------------------ |
+| PoW9: [Knights](week09/00_knights/)                    |
+| [Algocoön Group (Algocoon)](week09/01_algocoon_group/) |
+| [Placing Knights](week09/02_placing_knights/)          |
+| [Real Estate Market](week09/03_real_estate_market/)    |
+| [Casino Royale](week09/04_casino_royale/)              |
 
 ## Week 10
-| Problem       |
-| ------------- |
-| PoW: [](week) |
-| [](week)      |
-| [](week)      |
-| [](week)      |
-| [](week)      |
+| Problem                                                          |
+| ---------------------------------------------------------------- |
+| PoW10: [The Hand’s Tourney (Hand)](week10/00_the_hands_tourney/) |
+| [Clues](week10/01_clues/)                                        |
+| [DHL](week10/02_DHL/)                                            |
+| [New York](week10/03_new_york/)                                  |
+| [Fleetrace](week10/04_fleetrace/)                                |
+| Extra Exercise: [New Tiles](week10/05_(extra)_new_tiles/)        |
 
 ## Week 11
-| Problem       |
-| ------------- |
-| PoW: [](week) |
-| [](week)      |
-| [](week)      |
-| [](week)      |
-| [](week)      |
+| Problem                                                                              |
+| ------------------------------------------------------------------------------------ |
+| PoW11: [Ceryneian Hind](week11/00_ceryneian_hind/)                                   |
+| [Astérix in Switzerland (Asterix in Switzerland)](week11/01_asterix_in_switzerland/) |
+| [The Fighting Pits of Meereen](week11/02_the_fighting_pits_of_meereen/)              |
+| [Revenge of the Sith (Sith)](week11/03_sith/)                                        |
+| [World Cup](week11/04_world_cup/)                                                    |
 
 ## Week 12
 | Problem                                                                       |
@@ -139,3 +127,18 @@ Each problem folder contains my solution, the problem PDF and the public test da
 | Problem                                      |
 | -------------------------------------------- |
 | PoW14: [Ludo Bagman](week14/00_ludo_bagman/) |
+
+## C++ Introduction
+
+| Problem                                                 |
+| ------------------------------------------------------- |
+| [Hello World](intro_exercise/01_hellow_world/)          |
+| [Sum it!](intro_exercise/02_sum_it/)                    |
+| [Basic Data Types](intro_exercise/03_basic_data_types/) |
+| [Strings](intro_exercise/04_strings/)                   |
+| [Vectors](intro_exercise/05_vectors/)                   |
+| [Sets](intro_exercise/06_sets/)                         |
+| [Maps](intro_exercise/07_maps/)                         |
+| [DFS](intro_exercise/08_dfs/)                           |
+| [BFS](intro_exercise/09_bfs/)                           |
+| [Sort](intro_exercise/10_sort/)                         |
